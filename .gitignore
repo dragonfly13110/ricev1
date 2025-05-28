@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+pip-freeze.txt
+requirements.txt # ถ้าคุณจะสร้างจาก pip freeze แล้วค่อยเอาขึ้นทีหลัง
+               # แต่ปกติจะ commit requirements.txt ที่จำเป็น
+
+# Service Account Key (สำคัญมาก!)
+your-service-account-key.json # หรือชื่อไฟล์ key ของคุณ
+
+# Streamlit secrets (ถ้าใช้ local secrets)
+.streamlit/secrets.toml
+
+# IDE specific
+.vscode/
+.idea/
+
+# OS specific
+.DS_Store
+Thumbs.db
