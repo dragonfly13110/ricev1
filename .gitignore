@@ -1,27 +1,73 @@
-# Python
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Virtual environment
-.venv/
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a script, but they may be committed to
+#  repositories lacking CI/CD setup.
+# *.manifest
+# *.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Environments
+.env
+.venv
+env/
 venv/
 ENV/
-env/
-pip-freeze.txt
-requirements.txt # ถ้าคุณจะสร้างจาก pip freeze แล้วค่อยเอาขึ้นทีหลัง
-               # แต่ปกติจะ commit requirements.txt ที่จำเป็น
+env.bak/
+venv.bak/
 
-# Service Account Key (สำคัญมาก!)
-your-service-account-key.json # หรือชื่อไฟล์ key ของคุณ
-
-# Streamlit secrets (ถ้าใช้ local secrets)
+# Streamlit secrets
 .streamlit/secrets.toml
 
-# IDE specific
+# Data files (ถ้าไม่ต้องการให้ข้อมูลตัวอย่างหรือข้อมูลที่ผู้ใช้กรอกถูก commit)
+rice_data.csv
+*.csv # ถ้ามีไฟล์ CSV อื่นๆ ที่ไม่ต้องการ commit
+
+# IDE / Editor specific files
 .vscode/
 .idea/
-
-# OS specific
-.DS_Store
-Thumbs.db
+*.DS_Store
